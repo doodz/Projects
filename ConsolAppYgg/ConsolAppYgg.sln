@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolAppYgg", "ConsolAppYgg\ConsolAppYgg.csproj", "{38265E2C-55A9-49C6-9150-8C96472F155D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YggClientCore", "YggClientCore\YggClientCore.csproj", "{914040E0-CA2E-48D6-9735-56FF27FBCBB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38265E2C-55A9-49C6-9150-8C96472F155D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38265E2C-55A9-49C6-9150-8C96472F155D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38265E2C-55A9-49C6-9150-8C96472F155D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38265E2C-55A9-49C6-9150-8C96472F155D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914040E0-CA2E-48D6-9735-56FF27FBCBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914040E0-CA2E-48D6-9735-56FF27FBCBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914040E0-CA2E-48D6-9735-56FF27FBCBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914040E0-CA2E-48D6-9735-56FF27FBCBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E04DC88-E8BD-4DBC-B7FF-B0CA4759275E}
+	EndGlobalSection
+EndGlobal

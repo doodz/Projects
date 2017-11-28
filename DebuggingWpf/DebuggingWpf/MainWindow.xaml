@@ -1,0 +1,17 @@
+﻿<Window x:Class="DebuggingWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase"
+        xmlns:local="clr-namespace:DebuggingWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Name="wnd">
+    <!--<Window.Resources>
+        <local:DebugDummyConverter x:Key="DebugDummyConverter" />
+    </Window.Resources>-->
+    <Grid>
+        <TextBlock Name="TOTO" Text="{Binding NonExistingProperty,diag:PresentationTraceSources.TraceLevel=High}" />
+        
+    </Grid>
+</Window>
